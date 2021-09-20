@@ -11,3 +11,19 @@ Enter the rate of growth in percent: 2.1
 Enter the number of days: 12
 There will be 25017087 people after 12 days
 """
+
+cpop = input("Enter the current population:").strip()
+cpop = float(cpop)
+
+rate = input("Enter the rate of growth in percent:").strip()
+rate = float(rate)
+numrate = rate / 100
+
+days = input("Enter the number of days:").strip()
+days = float(days)
+years = days/365
+
+npop = cpop*(1+numrate)**years
+npop = round(npop)
+
+print(f"There will be {npop} after {days} days")

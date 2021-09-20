@@ -14,3 +14,29 @@ Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
 
+price1 = input("Enter the first price: ").strip()
+price1 = float(price1)
+
+price2 = input("Enter the second price: ").strip()
+price2 = float(price2)
+
+price3 = input("Enter the third price: ").strip()
+price3 = float(price3)
+
+price4 = input("Enter the fourth price: ").strip()
+price4 = float(price4)
+
+price5 = input("Enter the fifth price: ").strip()
+price5 = float(price5)
+
+subtotal = price1 + price2 + price3 + price4 + price5
+subtotal = round(subtotal, 2)
+
+taxes = subtotal * 0.12
+taxes = round(taxes , 2)
+
+total = taxes + subtotal
+total = round(total, 2)
+
+print(f"Your subtotal is ${subtotal} and your taxes total ${taxes} for a total of ${total}")
+
