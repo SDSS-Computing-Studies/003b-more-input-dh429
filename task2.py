@@ -20,7 +20,7 @@ rate = float(rate)
 numrate = rate / 100
 
 days = input("Enter the number of days:").strip()
-days = float(days)
+days = int(days)
 years = days/365
 
 npop = cpop*(1+numrate)**years
