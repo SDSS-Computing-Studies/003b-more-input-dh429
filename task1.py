@@ -16,7 +16,7 @@ You earned $0.20 interest.
 """
 import math
 
-principle = input("Enter your amount:")
+principle = input("Enter your amount:").strip
 principle = float(principle)
 
 rate = input("Enter the rate:")
