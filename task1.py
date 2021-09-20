@@ -21,11 +21,12 @@ principle = float(principle)
 
 rate = input("Enter the rate:")
 rate = float(rate)
+newrate = rate / 100
 
 days = input("Enter the # of days in the month: ")
 days = float(days)
 
-interest = principle * rate * days / 365
+interest = principle * newrate * days / 365
 
 interest = round(interest , 2)
 
