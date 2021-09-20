@@ -30,3 +30,4 @@ food2 = input("Enter another name of a food: ").strip()
 thing1 = input("Enter a thing: ").strip()
 
 print(f"Today we picked apple from {name1}'s Orchard. I had no idea there were so many different varieties of apples. I ate {adjective1} apples straight off the tree that tasted like {food1}. Then there was a {adjective2} apple that looked like a {noun1}.  When our bag was full, we went on a free hay ride to {place1} and back. It ended at a hay pile where we got to {verb1} {adverb1}. I can hardly wait to get home and cook with the apples. We are going to make apple {food2} and {thing1} pies!")
+
