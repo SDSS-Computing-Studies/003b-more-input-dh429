@@ -30,5 +30,5 @@ interest = principle * newrate * days / 365
 
 interest = round(interest , 1)
 
-print (f"You earned ${interest} interest")
+print (f"You earned ${interest} interest.")
 
