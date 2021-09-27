@@ -12,14 +12,14 @@ Enter the number of days: 12
 There will be 25017087 people after 12 days
 """
 
-cpop = input("Enter the current population:").strip()
+cpop = input("Enter the current population:")
 cpop = float(cpop)
 
-rate = input("Enter the rate of growth in percent:").strip()
+rate = input("Enter the rate of growth in percent:")
 rate = float(rate)
 numrate = rate / 100
 
-days = input("Enter the number of days:").strip()
+days = input("Enter the number of days:")
 days = int(days)
 years = days/365
 

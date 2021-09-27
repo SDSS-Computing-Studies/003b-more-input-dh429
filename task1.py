@@ -19,11 +19,11 @@ import math
 principle = input("Enter your amount:")
 principle = float(principle)
 
-rate = input("Enter the rate:").strip()
+rate = input("Enter the rate:")
 rate = float(rate)
 newrate = rate / 100
 
-days = input("Enter the # of days in the month: ").strip()
+days = input("Enter the # of days in the month: ")
 days = float(days)
 
 interest = principle * newrate * days / 365
