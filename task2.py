@@ -26,4 +26,4 @@ years = days/365
 npop = cpop*(1+numrate)**years
 npop = round(npop)
 
-print(f"There will be {npop} after {days} days")
+print(f"There will be {npop} people after {days} days")
